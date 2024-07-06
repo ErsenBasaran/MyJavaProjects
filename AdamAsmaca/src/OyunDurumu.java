@@ -40,10 +40,11 @@ public class OyunDurumu {
     }
 
     public void durumGoster(){
-       // for (char harf:tahminler){
-         //   System.out.println(harf + " ");
-      //  }
-        System.out.println(Arrays.toString(tahminler)); // yukarıdaki ile aynı sonucu verirdi
+        for (char harf:tahminler){
+           System.out.print(harf + " ");
+        }
+        System.out.println("Kalan hak : " + kalanHak);
+        //System.out.println(Arrays.toString(tahminler)); // yukarıdaki ile aynı sonucu verirdi
 
 
     }

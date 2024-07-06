@@ -9,7 +9,7 @@ public class Kelime {
     public Kelime() {
         Random random = new Random();
         kelime = kelimeler[random.nextInt(kelimeler.length)];
-        
+
     }
 
     public String getKelime() {
